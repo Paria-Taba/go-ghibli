@@ -21,6 +21,7 @@ function useFilmsApi(){
 useEffect(()=>{
 	async function getData(){
 		try{
+			
 			const res = await fetch("/api/films");
 			  if (!res.ok) throw new Error("Failed to fetch data");
            const jsonData: FilmType[] = await res.json();
