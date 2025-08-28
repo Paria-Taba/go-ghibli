@@ -1,0 +1,21 @@
+.header-div{
+	background-color: rgb(205, 255, 255);
+	padding: 20px;
+	display: flex;
+}
+.header-div nav ul{
+	display: flex;
+	
+	
+}
+.header-div nav ul a{
+	text-decoration: none;
+	margin: 20px;
+	color: black;
+	padding: 20px;
+}
+.header-div nav ul a:hover{
+	background-color: aqua;
+	border-radius: 20px;
+	
+}
